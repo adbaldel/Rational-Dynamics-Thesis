@@ -9,6 +9,7 @@ In a conda environment I have installed Jupyter and Python 3.10.19 with the foll
     matplotlib: For plotting standard images.
     ipympl: Enables interactive plots in VS Code (zoom/pan support inside the notebook).
     scipy: Might need this for finding roots of polynomials.
+    sympy: For symbolic calculations like differentation.
 
 For the Jupyter extension in VSCode: 
     Use of Widgets in Jupyter Notebooks requires to download supporting files from a 3rd party website. The 3rd party websites are as follows:
