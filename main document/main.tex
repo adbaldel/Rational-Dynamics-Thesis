@@ -1,0 +1,42 @@
+\documentclass[12pt, a4paper, oneside]{book}
+
+% --- Packages -----------------------------------------------------------------
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[english, spanish]{babel}
+\usepackage{amsfonts, amssymb, amsmath}
+\usepackage[hidelinks]{hyperref}
+\usepackage{graphicx}
+\graphicspath{ {../images} }
+\usepackage{pdfpages}
+\usepackage{csquotes}
+\usepackage{biblatex}
+\addbibresource{refs.bib}
+
+% --- Defined Commands ---------------------------------------------------------
+\input{commands}
+
+% --- Includes to Reproccess ---------------------------------------------------
+\includeonly{front,chap1-examples}
+
+% --- Document Information -----------------------------------------------------
+\title{Título del trabajo en castellano}
+\author{Adrián Baldellou Aguirre \and José Manuel Gutiérrez Jiménez}
+
+% --- Document -----------------------------------------------------------------
+\begin{document}
+% --- Front Matter -------------------------------------------------------------
+\frontmatter
+\include{front}
+
+% --- Main Matter --------------------------------------------------------------
+\mainmatter
+\include{chap1-examples}
+% --- Appendix --------------------------------------------------------------
+%\appendix
+%\include{append}
+
+% --- Back Matter --------------------------------------------------------------
+\backmatter
+\printbibliography[heading=bibintoc]
+\end{document}

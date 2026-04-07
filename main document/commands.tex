@@ -1,0 +1,19 @@
+% inserts the non italics Euler's number (roman e)
+\newcommand{\E}{\mathrm{e}}
+
+% inserts the non italics imaginary number (roman i)
+\newcommand{\I}{\mathrm{i}}
+
+% inserts the roman d for differentiation
+\newcommand{\D}{\mathrm{d}}
+
+% inserts the fraction derivative symbol, it needs two arguments:
+% 1. the function to differentiante (symbol in the numerator)
+% 2. the variable respect to which to differentiate (symbol in the denominator)
+\newcommand{\dbyd}[2]{\frac{\D#1}{\D#2}}
+
+% inserts the fraction n-th derivative symbolr, it needs two arguments:
+% 1. the function to differentiante (symbol in the numerator)
+% 2. the variable respect to which to differentiate (symbol in the denominator)
+% and can recieve an optional argument to indicate the order of the derivative
+\newcommand{\dnbyd}[3][]{\frac{\D^{#1}#2}{\D #3^{#1}}}
