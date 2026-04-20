@@ -1,4 +1,4 @@
-# **Tesis de Grado: Dinámica Compleja y Funciones Racionales (Español)**
+# **Tesis de Grado: Dinámica Compleja y Funciones Racionales**
 
 ## **Descripción**
 
