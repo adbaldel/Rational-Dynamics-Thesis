@@ -58,10 +58,9 @@ con
 \end{align*}
 La ecuación~\ref{eq:mobiusEj2Conj} muestra que $R$ es conjugada a la rotación
 $S(z)=-iz$. Por tanto, la dinámica de $R$ se reduce a estudiar el comportamiento
-de $S$, que es sencillo: como $(-i)^4=1$, se tiene $S^4(z)=z$ para todo $z$.
-En consecuencia,
+de $S$: como $(-i)^4=1$, se tiene $S^4(z)=z$ para todo $z$. En consecuencia,
 \[
-    R^4(z)=\I(z)=z,
+    R^4(z)=\Id(z)=z,
 \]
 para todo $z \in \ExtC$. Así, todas las órbitas son periódicas de período que
 divide a $4$; en particular, salvo los puntos fijos, no convergen.
@@ -75,8 +74,9 @@ clasificarse según tengan uno o dos puntos fijos.
 Sea $R$ una transformación de Möbius, si $R$ tiene
 \begin{enumerate}
     \item un punto fijo, $\zeta$, entonces para todo $z \in \ExtC$,
-        $R^n(z) \to \zeta$ cuando $n~\to~\infty$;
-    \item dos puntos fijos, entonces se tiene que
+        $R^n(z) \to \zeta$ cuando $n$ tiende a $\infty$;
+    \item dos puntos fijos, entonces para todo $z \in \ExtC$ se tiene que cuando
+        $n$ tiende a $\infty$
     \begin{enumerate}
         \item $R^n(z)$ converge a uno de los puntos fijos,
         \item $R^n(z)$ se mueve cíclicamente en un conjunto finito de puntos,
@@ -88,3 +88,23 @@ Sea $R$ una transformación de Möbius, si $R$ tiene
 \begin{proof}
     Véase \cite[4--5]{Beardon1991}.
 \end{proof}
+
+\section{Polinomios de grado 2}
+% Hemos visto cómo las iteraciones de las transformaciones de Möbius están muy
+% restringidas y tienen un buen comportamiento. Sin embargo, para el caso general
+% de las funciones racionales esto no es cierto. Analicemos el comportamiento de
+% algunos polinomios de grado 2, que a primera vista, parecería que también
+% deberían tener un comportamiento amigable.
+
+\ldots
+
+% \begin{figure}[htbp]
+%     \centering
+%     % If your python figsize matches the page width, you don't even need scale options!
+%     % But setting width=\textwidth is a safe fallback.
+%     \includegraphics[width=0.8\textwidth]{images/newton_basins.pdf}
+%     \caption{The Fatou basins of attraction for the rational function $R(z) = z^3 - 1$. The super-attracting fixed points are denoted by $\times$. Note that the Julia set forms the boundary of these basins.}
+%     \label{fig:newton_basins}
+% \end{figure}
+
+% As we can see in Figure \ref{fig:newton_basins}, the boundary exhibits complex fractal geometry...
