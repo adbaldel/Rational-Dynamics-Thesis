@@ -3,7 +3,9 @@
 ## **Descripción**
 
 Este repositorio contiene el código, las figuras y los archivos fuente en LaTeX de mi Trabajo de Fin de Grado (TFG) sobre **Dinámica Compleja**, centrado específicamente en la iteración de funciones racionales en la esfera de Riemann.
+
 El objetivo principal de la tesis es construir una base sólida de los conceptos topológicos y analíticos necesarios (siguiendo el libro *Iteration of Rational Functions* de Alan F. Beardon) para finalmente enunciar y comprender el **Teorema de los Dominios no Errantes** (No Wandering Domains Theorem) de Sullivan.
+
 El código en Python de este repositorio se utiliza para explorar estos conceptos de forma numérica y para generar los fractales de alta calidad (conjuntos de Julia, cuencas de Fatou, etc.) que se incluyen en la memoria escrita.
 
 ## **Estructura del Repositorio**
@@ -45,7 +47,9 @@ Para ejecutar el código e interactuar con los cuadernos de Jupyter, necesitará
 ## **Description**
 
 This repository contains the code, figures, and LaTeX source files for my Bachelor's thesis on **Complex Dynamics**, specifically focusing on the iteration of rational functions on the Riemann sphere.
+
 The main objective of the thesis is to build a solid foundation of the required topological and analytic concepts (following Alan F. Beardon's *Iteration of Rational Functions*) to ultimately state and understand Sullivan's **No Wandering Domains Theorem**.
+
 The Python code in this repository is used to explore these concepts numerically and to generate the high-quality fractals (Julia sets, Fatou basins, etc.) featured in the written report.
 
 ## **Repository Structure**
